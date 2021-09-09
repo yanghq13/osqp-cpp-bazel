@@ -1,40 +1,8 @@
 # **osqp-cpp-bazel**
 The `osqp-cpp` is built by `bazel`, which is easy to use `osqp` for rookies.
 
-[![LICENSE](https://img.shields.io/badge/license-Apache%202-blue)](./LICENSE "LICENSE")  [![Build Status](https://travis-ci.com/JoeyBling/yilia-plus-demo.svg?branch=master)](https://travis-ci.com/JoeyBling/yilia-plus-demo)
+![](http://latex.codecogs.com/svg.latex?&\frac{1}{2})
 
-## Demo
-
-> reference：[osqp.org/example/demo](https://osqp.org/docs/examples/setup-and-solve.html)
-
-Consider the following QP
-$$
-\begin{aligned}
-minimize \quad 
-&\frac{1}{2} x^T 
-\begin{bmatrix}
- 4 & 1\\
- 1 & 2
-\end{bmatrix}
-x + 
-\begin{bmatrix}
-1 \\1
-\end{bmatrix}^T
-x \\
-subject \quad to \quad 
-&\begin{bmatrix}
-1 \\0 \\0
-\end{bmatrix}
-\le \begin{bmatrix}
- 1 & 1\\
- 1 & 0\\
- 0 & 1
-\end{bmatrix}
-\le \begin{bmatrix}
-1 \\0.7 \\0.7
-\end{bmatrix}
-\end{aligned}
-$$
 We show below how to solve the problem in C++.
 
 ```c++
