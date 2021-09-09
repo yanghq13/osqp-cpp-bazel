@@ -1,4 +1,8 @@
 # **osqp-cpp-bazel**
+
+![LICENSE](https://img.shields.io/badge/license-Apache%202-blue)
+![Build Status](https://travis-ci.com/JoeyBling/yilia-plus-demo.svg?branch=master)
+
 The `osqp-cpp` is built by `bazel`, which is easy to use `osqp` for rookies.
 
 ![](http://latex.codecogs.com/svg.latex?\begin{aligned}minimize\quad&\frac{1}{2}x^T\begin{bmatrix}4&1\\\\1&2\end{bmatrix}x+\begin{bmatrix}1\\\\1\end{bmatrix}^Tx\\\\s.t.\quad&\begin{bmatrix}1\\\\0\\\\0\end{bmatrix}\le\begin{bmatrix}1&1\\\\1&0\\\\0&1\end{bmatrix}x\le\begin{bmatrix}1\\\\0.7\\\\0.7\end{bmatrix}\end{aligned})
