@@ -103,7 +103,7 @@ bazel build //:example_osqp
 bazel run //:example_osqp
 ```
 
-4. Get the sultion.
+4. Get the solution.
 
 ```bash
 -----------------------------------------------------------------
