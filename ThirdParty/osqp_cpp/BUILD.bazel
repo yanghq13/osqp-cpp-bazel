@@ -1,0 +1,19 @@
+cc_library(
+    name = "osqp_cpp",
+    srcs = [
+        "osqp++.cc",
+    ],
+    hdrs = [
+        "osqp++.h",
+    ],
+    deps = [
+        "@com_google_absl//absl/base",
+        "@com_google_absl//absl/status",
+        "@com_google_absl//absl/strings",
+        "@eigen",
+        "@osqp_lib//:osqp",
+    ],
+    copts = ["-std=c++17"],
+    include_prefix = "ThirdParty/osqp_cpp/",
+    visibility = ["//visibility:public"],
+)
