@@ -1,7 +1,7 @@
 # **osqp-cpp-bazel**
 
-![LICENSE](https://img.shields.io/badge/license-Apache%202-blue)
-![Build Status](https://travis-ci.com/JoeyBling/yilia-plus-demo.svg?branch=master)
+![LICENSE](https://img.shields.io/badge/license-GPL%202.0-brightgreen)
+![Build Status](https://img.shields.io/badge/build-passing-blue) ![Build Status](https://img.shields.io/badge/platform-linux--64-blueviolet)
 
 The `osqp-cpp` is built by `bazel`, which is easy to use `osqp` for rookies.
 
