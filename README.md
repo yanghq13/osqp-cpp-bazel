@@ -103,7 +103,7 @@ bazel build //:example_osqp
 bazel run //:example_osqp
 ```
 
-Terminal print like this
+4. Get the resultion.
 
 ```bash
 -----------------------------------------------------------------
